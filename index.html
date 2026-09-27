@@ -53,20 +53,20 @@
       <h3>2. 익명 이용과 Luca 통합 계정</h3>
       <p>익명으로 시작하면 이메일 입력 없이 임시 계정이 생성됩니다. 정식 Luca 통합 계정으로 전환하면 이메일과 비밀번호를 등록하고 기존 독서 기록을 같은 계정에 유지합니다. 이메일 계정은 다른 Luca 서비스와 같은 계정을 사용할 수 있습니다.</p>
       <h3>3. 저장 위치와 외부 서비스</h3>
-      <p>계정 인증과 Reading 데이터 저장에 Supabase를 사용합니다. 서비스 제공에 필요한 정보가 Supabase로 전송·저장됩니다. Luca Reading 앱에서 광고, 결제 또는 별도 분석 SDK를 사용하는 것은 확인되지 않았습니다. 계정 삭제 절차는 Luca Journal의 계정 삭제 페이지로 연결됩니다. 개인정보 제3자 제공이나 국외 이전의 법적 구분 및 Supabase 저장 지역은 운영자 확인이 필요합니다.</p>
+      <p>Luca Reading의 계정 인증과 독서 데이터 처리는 Supabase를 통해 이루어집니다. Luca-DB의 주 데이터 저장 지역은 대한민국 서울(ap-northeast-2)입니다. 계정 삭제 절차는 Luca Journal의 계정 삭제 페이지로 연결됩니다.</p>
       <h3>4. 보관, 초기화 및 삭제</h3>
       <p>Reading 데이터는 계정 이용 중 보관됩니다. 앱의 <strong>내 정보 → Luca Reading 데이터 초기화</strong>를 실행하면 책, 세션, 노트, 질문, 챌린지, 독서 설정과 온보딩 정보가 삭제되며 Luca 계정은 유지됩니다. 삭제한 Reading 데이터는 앱에서 복구할 수 없습니다.</p>
-      <p>익명 계정을 90일 동안 사용하지 않으면 자동 정리 대상이 됩니다. 정리 작업은 매일 18:30 UTC(한국시간 다음 날 03:30)에 실행됩니다. 익명 계정이 삭제되면 연결된 Reading 데이터도 함께 삭제됩니다. 계정 전환을 완료한 정식 계정에는 이 익명 계정 정리 기준이 적용되지 않습니다.</p>
+      <p>마지막 관측 활동으로부터 90일 이상 지난 익명 계정은 자동 정리 대상이 됩니다. 정리 작업은 매일 18:30 UTC(한국시간 다음 날 03:30)에 실행됩니다. 익명 계정이 삭제되면 연결된 Reading 데이터도 함께 삭제됩니다. 계정 전환을 완료한 정식 계정에는 이 익명 계정 정리 기준이 적용되지 않습니다.</p>
       <p>계정 전체 삭제는 앱의 <strong>내 정보 → 회원 탈퇴</strong>에서 열리는 <a href="https://lucajournal.com/account/delete">Luca 계정 삭제 페이지</a>에서 진행합니다. 이 페이지는 이메일과 비밀번호 재확인을 요구하므로 이메일·비밀번호가 없는 익명 계정은 현재 이 경로로 직접 삭제할 수 없습니다. Luca 계정을 삭제하면 해당 계정의 Reading 데이터도 삭제되며, 다른 Luca 서비스 이용에도 영향을 줍니다. 로그아웃은 계정 또는 서버 데이터를 삭제하지 않습니다.</p>
       <h3>5. 정책 변경과 문의</h3>
       <p>처리 방식이 바뀌면 이 페이지의 내용과 시행일을 갱신합니다. 중요한 변경 사항은 서비스 내 또는 이 페이지에서 안내합니다.</p>
-      <p class="notice">운영 주체 및 개인정보 문의 연락처: 확인 후 기재 예정.</p>
+      <p class="notice">운영 주체: 최호<br>개인정보 및 서비스 문의: <a href="mailto:yaho0619@naver.com">yaho0619@naver.com</a></p>
     </section>
 
     <section class="document" id="terms-ko" lang="ko" aria-labelledby="terms-ko-title">
       <h2 id="terms-ko-title">Luca Reading 이용약관</h2>
       <h3>1. 서비스와 계정</h3>
-      <p>Luca Reading은 책 등록, 독서 진행과 시간 기록, 노트·질문·회고·챌린지 및 관련 설정 기능을 제공합니다. 익명 계정으로 시작하거나 이메일 기반 Luca 통합 계정을 사용할 수 있습니다. 익명 계정은 90일 미사용 시 자동 정리될 수 있으므로 기록을 계속 보관하려면 정식 계정으로 전환해 주세요.</p>
+      <p>Luca Reading은 책 등록, 독서 진행과 시간 기록, 노트·질문·회고·챌린지 및 관련 설정 기능을 제공합니다. 익명 계정으로 시작하거나 이메일 기반 Luca 통합 계정을 사용할 수 있습니다. 마지막 관측 활동으로부터 90일 이상 지난 익명 계정은 자동 정리될 수 있으므로 기록을 계속 보관하려면 정식 계정으로 전환해 주세요.</p>
       <h3>2. 이용자의 책임</h3>
       <p>이용자는 정확한 계정 정보를 입력하고 로그인 수단을 안전하게 관리해야 합니다. 타인의 권리를 침해하거나 서비스를 방해하는 방식으로 이용해서는 안 됩니다. 이용자가 입력한 독서 내용에 대한 권리와 책임은 해당 이용자에게 있습니다.</p>
       <h3>3. 데이터와 계정 종료</h3>
@@ -74,7 +74,7 @@
       <h3>4. 서비스 변경과 약관 변경</h3>
       <p>서비스 기능이나 운영 방식이 바뀔 수 있습니다. 약관을 변경할 때는 이 페이지에 변경 내용과 시행일을 게시합니다.</p>
       <h3>5. 운영 주체와 문의</h3>
-      <p class="notice">운영 주체 및 문의 연락처: 확인 후 기재 예정.</p>
+      <p class="notice">운영 주체: 최호<br>개인정보 및 서비스 문의: <a href="mailto:yaho0619@naver.com">yaho0619@naver.com</a></p>
     </section>
 
     <section class="document" id="privacy-en" lang="en" aria-labelledby="privacy-en-title">
@@ -89,20 +89,20 @@
       <h3>2. Anonymous and Luca accounts</h3>
       <p>Starting anonymously creates a temporary account without an email address. You can register an email address and password to convert it into a full Luca account while keeping the reading data attached to that account. An email-based Luca account may also be used with other Luca services.</p>
       <h3>3. Storage and external services</h3>
-      <p>We use Supabase for account authentication and Reading data storage. Information needed to provide the service is sent to and stored with Supabase. No advertising, payment, or separate analytics SDK was identified in the Luca Reading app. The account deletion flow links to a Luca Journal page. The operator still needs to confirm the legal classification of third-party processing or cross-border transfers, and the Supabase storage region.</p>
+      <p>Luca Reading processes account and reading data through Supabase. Luca-DB's primary data storage region is Seoul, South Korea (ap-northeast-2). The account deletion flow links to a Luca Journal page.</p>
       <h3>4. Retention and deletion</h3>
       <p>Reading data is kept while your account is in use. In the app, <strong>Profile → Reset Luca Reading data</strong> deletes books, sessions, notes, questions, challenges, Reading settings, and onboarding data while keeping your Luca account. Deleted Reading data cannot be restored in the app.</p>
-      <p>An anonymous account becomes eligible for automatic cleanup after 90 days without use. The cleanup job runs daily at 18:30 UTC (03:30 the next day in Korea). Deleting an anonymous account also deletes its associated Reading data. This anonymous-account rule does not apply after conversion to a full account.</p>
+      <p>An anonymous account becomes eligible for automatic cleanup when at least 90 days have passed since its last observed activity. The cleanup job runs daily at 18:30 UTC (03:30 the next day in Korea). Deleting an anonymous account also deletes its associated Reading data. This anonymous-account rule does not apply after conversion to a full account.</p>
       <p>To delete your whole Luca account, open <strong>Profile → Delete account</strong>, which takes you to the <a href="https://lucajournal.com/account/delete">Luca account deletion page</a>. That page requires an email address and password recheck, so an anonymous account without those credentials cannot currently use that route directly. Deleting a Luca account also deletes its Reading data and affects other Luca services. Signing out does not delete the account or server data.</p>
       <h3>5. Updates and contact</h3>
       <p>We will update this page and its effective date when our practices change. Material changes will be announced in the service or on this page.</p>
-      <p class="notice">Operator and privacy contact: to be confirmed.</p>
+      <p class="notice">Operator: Ho Choi<br>Privacy and service inquiries: <a href="mailto:yaho0619@naver.com">yaho0619@naver.com</a></p>
     </section>
 
     <section class="document" id="terms-en" lang="en" aria-labelledby="terms-en-title">
       <h2 id="terms-en-title">Luca Reading Terms of Use</h2>
       <h3>1. Service and accounts</h3>
-      <p>Luca Reading provides book registration, reading progress and time tracking, notes, questions, reflections, challenges, and related settings. You may start with an anonymous account or use an email-based Luca account. Anonymous accounts may be cleaned up after 90 days without use; convert to a full account to keep your records.</p>
+      <p>Luca Reading provides book registration, reading progress and time tracking, notes, questions, reflections, challenges, and related settings. You may start with an anonymous account or use an email-based Luca account. Anonymous accounts may be cleaned up once at least 90 days have passed since their last observed activity; convert to a full account to keep your records.</p>
       <h3>2. Your responsibilities</h3>
       <p>Provide accurate account information and protect your login credentials. Do not interfere with the service or infringe others' rights. You retain responsibility for the reading content you enter.</p>
       <h3>3. Data and account termination</h3>
@@ -110,7 +110,7 @@
       <h3>4. Service and terms changes</h3>
       <p>Features and service operations may change. Changes to these terms will be posted here with an effective date.</p>
       <h3>5. Operator and contact</h3>
-      <p class="notice">Operator and contact details: to be confirmed.</p>
+      <p class="notice">Operator: Ho Choi<br>Privacy and service inquiries: <a href="mailto:yaho0619@naver.com">yaho0619@naver.com</a></p>
     </section>
   </main>
   <footer><a href="#privacy-ko">맨 위로 / Back to top</a></footer>
